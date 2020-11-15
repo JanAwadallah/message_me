@@ -1,4 +1,4 @@
-<h4 style="font-size:3vw;" class="ui center aligned medium icon header">
+<h4 class="ui center aligned medium icon header four">
 <i class="circular orange comments outline icon"></i>
   Say Something
 </h4>
@@ -7,7 +7,7 @@
     <div  class="four wide column ">
         <div id="rightColumn" class="ui fluid raised card">
             <div class="content">
-                <div style="font-size:3vw;" class="ui inverted vertical menu menu1">
+                <div class="ui inverted vertical menu menu1 three">
                     <a class="item">
                         Home
                     </a>
@@ -31,7 +31,7 @@
             <div class="extra content">
                 <%= form_for(@message, html: {class: "ui reply form", role: "form"}, url: message_path, remote: true) do |f| %>
                     <div class="field">
-                        <div style="font-size:3vw;" class="ui fluid icon input">
+                        <div class="ui fluid icon input three">
                             <%= f.text_field :body %>
                             <%= f.button '<i class="bordered inverted orange icon edit"></i>'.html_safe %>
                         </div>                    
