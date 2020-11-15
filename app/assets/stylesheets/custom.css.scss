@@ -1,7 +1,7 @@
 @import "semantic-ui";
 
 .chatbox {
-  height: 450px;
+  height: 70vh;
 }
 .ui.vertical.menu.menu1 {
   width: 100%;
@@ -25,4 +25,13 @@
 #messages {
   height: 15em;
   overflow: auto;
+}
+
+#card1 {
+  width: fit-content;
+}
+
+#rightColumn {
+  float: right;
+  height: fit-content;
 }
