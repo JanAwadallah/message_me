@@ -36,3 +36,11 @@
   float: right;
   height: fit-content;
 }
+@media screen and (max-width: 500px) {
+  .three {
+    font-size: 3vw;
+  }
+  .four {
+    font-size: 4vw;
+  }
+}
