@@ -1,0 +1,28 @@
+@import "semantic-ui";
+
+.chatbox {
+  height: 450px;
+}
+.ui.vertical.menu.menu1 {
+  width: 100%;
+}
+
+.mb-4 {
+  margin-bottom: 4px;
+}
+.mt-25 {
+  margin-top: 100px;
+}
+
+.nolink {
+  text-decoration: none;
+  color: white;
+}
+.nolink:hover {
+  text-decoration: none;
+  color: white;
+}
+#messages {
+  height: 15em;
+  overflow: auto;
+}

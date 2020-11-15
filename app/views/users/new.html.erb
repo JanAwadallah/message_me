@@ -1,0 +1,32 @@
+<div class="mt-25">
+
+<div class="ui  inverted segment">
+
+<%= form_with(model: @user, local: true, class: "ui inverted form") do |f| %>
+  
+        <div class="field">
+            <%= f.label :username %>
+            <%= f.text_field :username, placeholder: "User Name" %>
+        </div><br>
+        <div class="field"> 
+            <%= f.label :password %>
+            <%= f.password_field :password, placeholder: "Password" %>
+        </div><br>
+    
+    <div class="field">
+        <%= f.label :email%>
+        <%= f.email_field :email, placeholder: "Email Address" %>
+  
+      </div><br> 
+    <div class="actions">
+      <%= f.submit "Sign up", class: "ui inverted brown button big fluid" %>
+    </div><br>
+    <div class="actions">
+      <%= link_to "Returning user! - Log in", login_path, class: "ui inverted brown button big fluid" %>
+    </div>
+  <% end %>
+</div>
+</div>
+
+
+
